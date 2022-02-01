@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden;
+}
+
 .container{
     height: 100vh;
 }
@@ -31,21 +35,18 @@ nav{
     font-size: 30px;
 }
 
-body{
-   
-    
-}
-
 nav li{
-    position: relative;
     display: inline-block;
-    list-style-type: none;
     font-size: 30px;
     padding: 10px 20px;
     margin: auto 30px;
     border: 1px solid white;
     border-radius: 100%;
     background-color: white;
+}
+
+nav li a{
+    text-decoration: none;
 }
 
 .titolo{
