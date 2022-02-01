@@ -24,9 +24,10 @@
 }
 
 nav{
+    position: fixed;
     margin: 40px auto;
     display: inline-block;
-    float: right;
+    right: 5px;
     font-size: 30px;
 }
 
