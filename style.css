@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: inline-block;
+    float: right;
+}
+
+body{
+    overflow: hidden;
+    background-color: #fe0000;
+}
+
+.scarpa{
+    background-color: #fe0000;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
