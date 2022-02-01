@@ -4,19 +4,35 @@
     box-sizing: border-box;
 }
 
+.container{
+    height: 100vh;
+}
+
+#scarpa1{
+    background-color:#fe0000;
+    height: 100vh;
+}
+
+#scarpa2{
+    background-color:#008001;
+    height: 100vh;
+}
+
+#scarpa3{
+    background-color: #ffff00;
+    height: 100vh;
+}
+
 nav{
+    margin: 40px auto;
     display: inline-block;
     float: right;
     font-size: 30px;
 }
 
 body{
-    background-color: #fe0000;
+   
     
-}
-
-.scarpa{
-    margin: 40px auto;
 }
 
 nav li{
@@ -31,13 +47,19 @@ nav li{
     background-color: white;
 }
 
-main h1{
+.titolo{
     font-family: 'Rubik Mono One', sans-serif;
     color: #f9fa04;
     text-align: center;
 }
 
-div img{
+img{
     transform: translate(+50%, 0);
+}
+
+#verde{
+    color: #008001;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
