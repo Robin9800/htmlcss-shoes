@@ -7,19 +7,36 @@
 nav{
     display: inline-block;
     float: right;
+    font-size: 30px;
 }
 
 body{
-    overflow: hidden;
     background-color: #fe0000;
 }
 
 .scarpa{
-    background-color: #fe0000;
+    margin: 40px auto;
 }
 
 nav li{
+    position: relative;
     display: inline-block;
     list-style-type: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: auto 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: white;
+}
+
+main h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #f9fa04;
+    text-align: center;
+}
+
+div img{
+    transform: translate(+50%, 0);
 }
 
